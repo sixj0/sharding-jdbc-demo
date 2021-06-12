@@ -1,4 +1,12 @@
 # sharding-jdbc-demo
+
+> 采⽤Sharding-JDBC实现c_order表分库分表+读写分离 
+>
+> 1. 基于user_id对c_order表进⾏数据分⽚
+> 2. 分别对master1和master2搭建⼀主⼆从架构 
+> 3. 基于master1和master2主从集群实现读写分离
+
+
 ### MySQL环境搭建
 
 <img src="http://qiniu.yiyuansucai.cn/Sharding-jdbc集群架构.png" alt="Sharding-jdbc集群架构" style="zoom:67%;" />
